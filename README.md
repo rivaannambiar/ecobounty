@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="ecobounty-assets/ecobounty-hero.gif" alt="Animated EcoBounty banner — AI vision, hardware, and a greener future" width="100%" />
+<img src="ecobounty-hero.gif" alt="Animated EcoBounty banner — AI vision, hardware, and a greener future" width="100%" />
 
 # 🌿 EcoBounty
 ### **SEE WASTE DIFFERENTLY. · MAKE BETTER CHOICES. · GROW A GREENER FUTURE.**
@@ -36,7 +36,7 @@ The website is the digital home for the project: a place to present the experien
 
 <div align="center">
 
-<img src="ecobounty-assets/workflow-animation.gif" alt="Animated four-stage EcoBounty workflow: capture, analyze, process, experience" width="100%" />
+<img src="workflow-animation.gif" alt="Animated four-stage EcoBounty workflow: capture, analyze, process, experience" width="100%" />
 
 <sub>Every stage should be understandable, testable, and honest about what the AI can—and cannot—tell you.</sub>
 
@@ -131,7 +131,7 @@ AI identification can be wrong when lighting is poor, an object is obscured, or 
 
 <div align="center">
 
-<img src="ecobounty-assets/dashboard-concept.png" alt="Concept mockup of a dark EcoBounty impact dashboard with overview cards and example activity charts" width="100%" />
+<img src="dashboard-concept.png" alt="Concept mockup of a dark EcoBounty impact dashboard with overview cards and example activity charts" width="100%" />
 
 **CONCEPT UI · ILLUSTRATIVE DATA · NOT A LIVE SCREENSHOT**
 
