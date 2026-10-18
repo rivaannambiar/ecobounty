@@ -1,0 +1,1068 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07100d" />
+    <meta
+      name="description"
+      content="EcoBounty — scan smarter, recycle more, and grow your green impact."
+    />
+    <title>EcoBounty — Grow Your Impact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+
+  <body>
+    <div class="scene-grid" aria-hidden="true"></div>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="ambient ambient-three" aria-hidden="true"></div>
+
+    <div class="particle-field" aria-hidden="true">
+      <span class="particle p1"></span>
+      <span class="particle p2"></span>
+      <span class="particle p3"></span>
+      <span class="particle p4"></span>
+      <span class="particle p5"></span>
+      <span class="particle p6"></span>
+      <span class="particle p7"></span>
+      <span class="particle p8"></span>
+      <span class="particle p9"></span>
+      <span class="particle p10"></span>
+      <span class="particle p11"></span>
+      <span class="particle p12"></span>
+    </div>
+
+    <!-- AUTHENTICATION -->
+    <section class="auth-gate" id="authGate">
+      <div class="auth-decoration auth-decoration-one" aria-hidden="true"></div>
+      <div class="auth-decoration auth-decoration-two" aria-hidden="true"></div>
+
+      <div class="auth-layout">
+        <div class="auth-showcase">
+          <a class="brand" href="#overview">
+            <span class="brand-mark">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M20.5 3.5C12.5 3.5 6 6.1 6 13a5 5 0 0 0 5 5c6.9 0 9.5-6.5 9.5-14.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+                <path
+                  d="M3.5 21c2.6-6.1 6.4-9.5 12-12"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <span
+              >eco<span class="brand-accent">bounty</span
+              ><span class="brand-period">.</span></span
+            >
+          </a>
+
+          <div class="auth-showcase-copy">
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>
+              SMALL ACTIONS. BIG IMPACT.
+            </div>
+
+            <h1>
+              A greener world starts with
+              <span class="gradient-text">you.</span>
+            </h1>
+
+            <p class="showcase-description">
+              Turn everyday recycling into a rewarding journey. Every item is an
+              opportunity to make a difference.
+            </p>
+
+            <div class="auth-feature-list">
+              <div class="auth-feature">
+                <span class="auth-feature-icon">✳</span>
+                <div>
+                  <strong>Earn EcoPoints</strong>
+                  <span>Get rewarded for eligible recycled items.</span>
+                </div>
+              </div>
+
+              <div class="auth-feature">
+                <span class="auth-feature-icon blue-feature-icon">↗</span>
+                <div>
+                  <strong>Track your journey</strong>
+                  <span>See your verified redemptions in one place.</span>
+                </div>
+              </div>
+
+              <div class="auth-feature">
+                <span class="auth-feature-icon purple-feature-icon">♜</span>
+                <div>
+                  <strong>Rise up the leaderboard</strong>
+                  <span>Celebrate your progress with the community.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="auth-art" aria-hidden="true">
+            <div class="auth-art-orbit orbit-a"></div>
+            <div class="auth-art-orbit orbit-b"></div>
+            <div class="auth-art-orbit orbit-c"></div>
+            <div class="auth-art-core">
+              <svg viewBox="0 0 100 100" fill="none">
+                <path
+                  d="M77 20C48 17 24 31 25 54c0 15 12 26 26 26 23 0 37-26 26-60Z"
+                  fill="url(#authLeafGradient)"
+                />
+                <path
+                  d="M18 83c10-21 27-37 48-48"
+                  stroke="#E2FFC0"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+                <defs>
+                  <linearGradient
+                    id="authLeafGradient"
+                    x1="24"
+                    y1="20"
+                    x2="79"
+                    y2="80"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#D5FF95" />
+                    <stop offset="1" stop-color="#58DDB3" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <span class="art-spark art-spark-one">✦</span>
+            <span class="art-spark art-spark-two">✧</span>
+            <span class="art-spark art-spark-three">✳</span>
+            <span class="art-orbit-label">YOUR IMPACT, IN MOTION</span>
+          </div>
+
+          <div class="auth-showcase-footer">
+            <span class="footer-dot"></span>
+            A LITTLE BETTER, EVERY DAY
+          </div>
+        </div>
+
+        <div class="auth-card">
+          <div class="auth-card-top">
+            <span class="auth-card-symbol">✳</span>
+            <span class="auth-card-caption">YOUR GREEN SPACE</span>
+            <span class="auth-card-version">01 / ECO</span>
+          </div>
+
+          <div class="auth-card-heading">
+            <div class="eyebrow">WELCOME TO ECOBOUNTY</div>
+            <h2 id="authTitle">Welcome back.</h2>
+            <p id="authDescription" class="muted-copy">
+              Sign in to access your EcoBounty dashboard.
+            </p>
+          </div>
+
+          <form id="authForm">
+            <label for="authEmail">Email address</label>
+            <div class="auth-input-wrap">
+              <span class="input-symbol" aria-hidden="true">＠</span>
+              <input
+                id="authEmail"
+                type="email"
+                placeholder="you@example.com"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <label for="authPassword">Password</label>
+            <div class="auth-input-wrap">
+              <span class="input-symbol" aria-hidden="true">⌑</span>
+              <input
+                id="authPassword"
+                type="password"
+                placeholder="Your password"
+                minlength="6"
+                autocomplete="current-password"
+                required
+              />
+            </div>
+
+            <button
+              id="authSubmit"
+              class="primary-button auth-submit"
+              type="submit"
+            >
+              <span>Sign in</span>
+              <span class="button-arrow">↗</span>
+            </button>
+
+            <p id="authStatus" class="form-status" aria-live="polite"></p>
+          </form>
+
+          <div class="auth-divider">
+            <span>YOUR JOURNEY CONTINUES HERE</span>
+          </div>
+
+          <div class="auth-actions">
+            <button id="authModeToggle" class="text-button" type="button">
+              New here? Create an account
+            </button>
+            <button id="authForgotBtn" class="text-button" type="button">
+              Forgot password?
+            </button>
+          </div>
+
+          <div class="auth-card-foot">
+            <span>🌱</span>
+            <p>Small habits. Meaningful change. One planet.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN APPLICATION -->
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="#overview" aria-label="EcoBounty home">
+          <span class="brand-mark">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M20.5 3.5C12.5 3.5 6 6.1 6 13a5 5 0 0 0 5 5c6.9 0 9.5-6.5 9.5-14.5Z"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+              <path
+                d="M3.5 21c2.6-6.1 6.4-9.5 12-12"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          <span
+            >eco<span class="brand-accent">bounty</span
+            ><span class="brand-period">.</span></span
+          >
+        </a>
+
+        <div class="sidebar-brand-chip">
+          <span class="tiny-orb"></span>
+          YOUR PLANET, YOUR PROGRESS
+        </div>
+
+        <div class="nav-label">YOUR WORKSPACE</div>
+
+        <nav class="navigation">
+          <a class="nav-item active" href="#overview">
+            <span class="nav-icon">◫</span>
+            <span>Overview</span>
+            <span class="nav-chevron">↗</span>
+          </a>
+          <a class="nav-item" href="#activity">
+            <span class="nav-icon">↗</span>
+            <span>Scan history</span>
+          </a>
+          <a class="nav-item" href="#leaderboard">
+            <span class="nav-icon">♜</span>
+            <span>Leaderboard</span>
+          </a>
+          <a class="nav-item" href="#claims">
+            <span class="nav-icon">◇</span>
+            <span>Claim points</span>
+          </a>
+          <a class="nav-item" href="#kioskCodes">
+            <span class="nav-icon">⌕</span>
+            <span>Current kiosk codes</span>
+          </a>
+          <a class="nav-item" href="#profile">
+            <span class="nav-icon">◎</span>
+            <span>My profile</span>
+          </a>
+        </nav>
+
+        <div class="sidebar-mini-heading">THE ECO LOOP</div>
+        <div class="eco-loop">
+          <div class="eco-loop-line">
+            <span class="eco-step-icon">⌕</span>
+            <div>
+              <strong>Scan an item</strong
+              ><span>Let your kiosk identify it</span>
+            </div>
+          </div>
+          <div class="eco-loop-connector"></div>
+          <div class="eco-loop-line">
+            <span class="eco-step-icon blue-step">◇</span>
+            <div>
+              <strong>Get a claim code</strong><span>Use your unique code</span>
+            </div>
+          </div>
+          <div class="eco-loop-connector"></div>
+          <div class="eco-loop-line">
+            <span class="eco-step-icon purple-step">✳</span>
+            <div>
+              <strong>Earn EcoPoints</strong><span>Grow your green score</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-spacer"></div>
+
+        <div class="sidebar-device">
+          <div class="device-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect
+                x="3"
+                y="5"
+                width="18"
+                height="14"
+                rx="4"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <circle
+                cx="12"
+                cy="12"
+                r="4"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <circle cx="12" cy="12" r="1.5" fill="currentColor" />
+              <path
+                d="M7 5V3.5M17 5V3.5"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="device-copy">
+            <strong>Your scanner</strong>
+            <span>ESP32-CAM · AI vision</span>
+          </div>
+          <span class="device-status-dot"></span>
+          <p>Your kiosk generates the one-time codes you redeem here.</p>
+        </div>
+
+        <div class="sidebar-footer">
+          <span class="footer-dot"></span>
+          BUILT FOR A GREENER TOMORROW
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div class="breadcrumbs">
+            <span class="breadcrumb-mark">✳</span>
+            <span>EcoBounty</span>
+            <span class="breadcrumb-slash">/</span>
+            <span class="current-crumb">Your dashboard</span>
+          </div>
+
+          <div class="topbar-right">
+            <div class="connection-pill" id="connectionPill">
+              <span class="status-dot loading" id="connectionDot"></span>
+              <span id="connectionText">Connecting to Firebase</span>
+            </div>
+            <a
+              class="avatar-link"
+              href="#profile"
+              aria-label="Go to your profile"
+            >
+              <span class="avatar" id="avatarBadge">E</span>
+              <span class="avatar-chevron">⌄</span>
+            </a>
+          </div>
+        </header>
+
+        <section class="page-content" id="overview">
+          <!-- HERO -->
+          <section class="welcome-row">
+            <div class="welcome-copy">
+              <div class="hero-badge">
+                <span class="hero-badge-icon">✳</span>
+                A SMALL STEP FOR A GREENER PLANET
+                <span class="hero-badge-live">ECO LIFE</span>
+              </div>
+
+              <h1>
+                Make an impact.<br /><span class="gradient-text"
+                  >Watch it grow.</span
+                >
+              </h1>
+
+              <p class="subtitle">
+                Welcome back, <strong id="greetingName">EcoRanger</strong>. Your
+                green journey looks good from here.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#claims" class="primary-button hero-cta">
+                  <span class="cta-icon">＋</span>
+                  Redeem a claim code
+                  <span class="button-arrow">↗</span>
+                </a>
+                <a href="#leaderboard" class="secondary-button hero-secondary">
+                  Explore leaderboard <span>↓</span>
+                </a>
+              </div>
+
+              <div class="hero-trust-row">
+                <span class="trust-check">✓</span>
+                <span>Verified redemptions</span>
+                <span class="trust-divider"></span>
+                <span class="trust-check">✓</span>
+                <span>Points tracked in Firebase</span>
+              </div>
+            </div>
+
+            <div class="hero-art" aria-hidden="true">
+              <div class="hero-art-glow"></div>
+              <div class="hero-orbit hero-orbit-one"></div>
+              <div class="hero-orbit hero-orbit-two"></div>
+              <div class="hero-orbit hero-orbit-three"></div>
+
+              <div class="hero-planet">
+                <svg viewBox="0 0 160 160" fill="none">
+                  <defs>
+                    <linearGradient
+                      id="planetGradient"
+                      x1="24"
+                      y1="16"
+                      x2="132"
+                      y2="143"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#E1FFB6" />
+                      <stop offset=".48" stop-color="#8DEB9C" />
+                      <stop offset="1" stop-color="#37BFA1" />
+                    </linearGradient>
+                    <linearGradient
+                      id="planetShadow"
+                      x1="32"
+                      y1="36"
+                      x2="123"
+                      y2="134"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#3E9E73" />
+                      <stop offset="1" stop-color="#156B61" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="58" fill="url(#planetGradient)" />
+                  <path
+                    d="M34 48c9-15 25-25 42-25 8 0 13 5 12 10-2 7-14 7-17 14-3 6-1 14-9 17-8 4-14-1-21 2-5 2-11-4-7-18Z"
+                    fill="#1B8061"
+                    opacity=".8"
+                  />
+                  <path
+                    d="M87 55c12-10 28-12 37 1 7 10 4 23-5 30-7 6-14 8-17 18-4 13-17 24-31 22-12-2-16-13-11-22 5-8 7-16 6-25-1-10 7-16 21-24Z"
+                    fill="url(#planetShadow)"
+                  />
+                  <path
+                    d="M38 94c10 8 22 7 31 17 6 8 8 18 5 26-18-2-34-18-41-34-2-4 1-8 5-9Z"
+                    fill="#259777"
+                  />
+                  <path
+                    d="M48 53c7-8 15-12 22-14M45 82c13 1 20 6 27 16m17-42c7 10 8 20 4 30"
+                    stroke="#E8FFD0"
+                    stroke-opacity=".6"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M45 35c17-12 36-15 54-7"
+                    stroke="#F4FFE4"
+                    stroke-opacity=".75"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+
+              <div class="hero-float-card float-card-points">
+                <span class="float-card-icon">✳</span>
+                <span
+                  ><strong>Every point matters</strong
+                  ><small>Grow your green score</small></span
+                >
+              </div>
+
+              <div class="hero-float-card float-card-leaf">
+                <span class="float-leaf-icon">♧</span>
+                <span
+                  ><strong>Think circular</strong
+                  ><small>Give resources new life</small></span
+                >
+              </div>
+
+              <span class="hero-star hero-star-one">✦</span>
+              <span class="hero-star hero-star-two">✧</span>
+              <span class="hero-star hero-star-three">✳</span>
+            </div>
+          </section>
+
+          <!-- STATS -->
+          <section class="stats-section">
+            <div class="section-intro">
+              <div>
+                <div class="eyebrow">
+                  <span class="eyebrow-line"></span> YOUR IMPACT AT A GLANCE
+                </div>
+                <h2 class="section-title">
+                  The numbers that <span class="gradient-text">matter.</span>
+                </h2>
+              </div>
+              <span class="section-side-note"
+                ><span class="tiny-orb"></span> YOUR PERSONAL OVERVIEW</span
+              >
+            </div>
+
+            <div class="stats-grid">
+              <article class="stat-card stat-highlight">
+                <div class="stat-card-glow"></div>
+                <div class="stat-top">
+                  <span class="stat-label">TOTAL ECOPOINTS</span>
+                  <span class="stat-icon leaf-icon">✳</span>
+                </div>
+                <div class="stat-number" id="pointsValue">0</div>
+                <div class="stat-caption">
+                  Points earned <span class="caption-bloom">✦</span>
+                </div>
+                <div class="stat-bottom">
+                  <span class="stat-bottom-icon">↗</span>
+                  Your green score
+                </div>
+                <div class="stat-decoration stat-decoration-leaf">♧</div>
+              </article>
+
+              <article class="stat-card">
+                <div class="stat-top">
+                  <span class="stat-label">TOTAL REDEMPTIONS</span>
+                  <span class="stat-icon blue-icon">⌕</span>
+                </div>
+                <div class="stat-number" id="scansValue">0</div>
+                <div class="stat-caption">Items recorded</div>
+                <div class="stat-bottom">
+                  <span class="stat-bottom-dot blue-dot"></span> Every scan
+                  counts.
+                </div>
+                <div class="stat-decoration stat-decoration-rings"></div>
+              </article>
+
+              <article class="stat-card">
+                <div class="stat-top">
+                  <span class="stat-label">RECYCLABLE ITEMS</span>
+                  <span class="stat-icon mint-icon">↻</span>
+                </div>
+                <div class="stat-number" id="recyclableValue">0</div>
+                <div class="stat-caption">Marked recyclable</div>
+                <div class="stat-bottom">
+                  <span class="stat-bottom-dot"></span> Resources get another
+                  life.
+                </div>
+                <div class="stat-decoration stat-decoration-spark">✳</div>
+              </article>
+
+              <article class="stat-card">
+                <div class="stat-top">
+                  <span class="stat-label">YOUR CURRENT LEVEL</span>
+                  <span class="stat-icon purple-icon">✧</span>
+                </div>
+                <div class="stat-number level-number" id="levelValue">
+                  Sprout
+                </div>
+                <div class="stat-caption" id="nextLevelCaption">
+                  Your journey starts here
+                </div>
+                <div class="stat-bottom">
+                  <span class="stat-bottom-dot purple-dot"></span> Keep growing.
+                </div>
+                <div class="stat-decoration stat-decoration-star">✧</div>
+              </article>
+            </div>
+          </section>
+
+          <!-- PROGRESS + SCANNER -->
+          <section class="feature-grid">
+            <article class="points-panel">
+              <div class="points-panel-grid" aria-hidden="true"></div>
+              <div class="panel-orb orb-one" aria-hidden="true"></div>
+              <div class="panel-orb orb-two" aria-hidden="true"></div>
+
+              <div class="points-panel-content">
+                <div class="panel-kicker">
+                  <span class="kicker-dot"></span> YOUR NEXT MILESTONE
+                </div>
+
+                <h2>
+                  Growth looks good<br /><span class="progress-heading-accent"
+                    >on you.</span
+                  >
+                </h2>
+                <p>
+                  Every eligible redemption takes you one step closer to your
+                  next EcoBounty level.
+                </p>
+
+                <div class="progress-level-row">
+                  <div class="level-avatar level-avatar-current">
+                    <span>✳</span>
+                  </div>
+                  <div class="level-identity">
+                    <span>CURRENT LEVEL</span>
+                    <strong id="currentLevelName">Sprout</strong>
+                  </div>
+                  <div class="level-arrow">→</div>
+                  <div class="level-identity next-level-identity">
+                    <span>NEXT MILESTONE</span>
+                    <strong id="nextLevelName">Recycler</strong>
+                  </div>
+                </div>
+
+                <div class="progress-header">
+                  <span id="levelProgressText"
+                    >0 / 100 points to next level</span
+                  >
+                  <span class="progress-badge" id="progressPercent">0%</span>
+                </div>
+
+                <div class="progress-track">
+                  <div class="progress-track-shine"></div>
+                  <div class="progress-fill" id="levelProgress"></div>
+                </div>
+
+                <div class="progress-foot">
+                  <span>Every little action moves you forward.</span>
+                  <span class="progress-foot-icon">🌱</span>
+                </div>
+              </div>
+
+              <div class="progress-art" aria-hidden="true">
+                <div class="progress-art-ring ring-a"></div>
+                <div class="progress-art-ring ring-b"></div>
+                <div class="progress-art-ring ring-c"></div>
+                <div class="progress-art-core">✳</div>
+              </div>
+
+              <div class="decorative-leaf" aria-hidden="true">♧</div>
+            </article>
+
+            <article class="scanner-panel">
+              <div class="scanner-panel-top">
+                <div>
+                  <div class="eyebrow">THE HARDWARE</div>
+                  <h2>Your eco scanner</h2>
+                </div>
+                <span class="status-tag status-hardware">ESP32-CAM</span>
+              </div>
+
+              <div class="scanner-stage" aria-hidden="true">
+                <div class="scanner-stage-glow"></div>
+                <div class="scanner-ring scanner-ring-one"></div>
+                <div class="scanner-ring scanner-ring-two"></div>
+                <div class="scanner-ring scanner-ring-three"></div>
+                <div class="scanner-crosshair crosshair-one"></div>
+                <div class="scanner-crosshair crosshair-two"></div>
+                <div class="scanner-beam"></div>
+
+                <div class="scanner-device">
+                  <div class="scanner-device-top"></div>
+                  <div class="scanner-lens">
+                    <div class="scanner-lens-inner"></div>
+                    <div class="scanner-lens-glint"></div>
+                  </div>
+                  <div class="scanner-device-light"></div>
+                  <div class="scanner-device-label">ECO / 01</div>
+                </div>
+
+                <span class="scanner-decoration scanner-spark-a">✦</span>
+                <span class="scanner-decoration scanner-spark-b">✧</span>
+                <span class="scanner-decoration scanner-spark-c">✳</span>
+
+                <div class="scan-bracket bracket-a"></div>
+                <div class="scan-bracket bracket-b"></div>
+                <div class="scan-bracket bracket-c"></div>
+                <div class="scan-bracket bracket-d"></div>
+              </div>
+
+              <div class="scanner-status-copy">
+                <h3>Scan. Identify. Reward.</h3>
+                <p>
+                  Your physical kiosk uses AI to classify an item and generate a
+                  claim code for eligible scans.
+                </p>
+              </div>
+
+              <div class="scanner-footer">
+                <span class="scanner-footer-icon">⌁</span>
+                <span>Claim codes are connected to Firebase.</span>
+              </div>
+            </article>
+          </section>
+
+          <!-- HISTORY + LEADERBOARD -->
+          <section class="content-grid">
+            <section class="content-panel history-panel" id="activity">
+              <div class="section-heading">
+                <div>
+                  <div class="eyebrow">
+                    <span class="eyebrow-line"></span> YOUR JOURNEY
+                  </div>
+                  <h2>Redemption history<span class="title-period">.</span></h2>
+                  <p class="panel-subtitle">
+                    A little timeline of the difference you've made.
+                  </p>
+                </div>
+                <span class="count-pill" id="historyCount">0 records</span>
+              </div>
+
+              <div class="history-column-labels" aria-hidden="true">
+                <span>ITEM & DETAILS</span>
+                <span>POINTS</span>
+              </div>
+
+              <div id="historyList" class="history-list">
+                <div class="empty-state">
+                  <div class="empty-icon">↻</div>
+                  <strong>Your story starts here</strong>
+                  <p>Your redeemed kiosk items will appear here.</p>
+                </div>
+              </div>
+
+              <div class="history-footer">
+                <span class="history-footer-mark">✳</span>
+                <span>Your history is built from verified redemptions.</span>
+              </div>
+            </section>
+
+            <section class="content-panel leaderboard-panel" id="leaderboard">
+              <div class="leaderboard-banner">
+                <div class="leaderboard-banner-orb"></div>
+                <div class="leaderboard-banner-top">
+                  <span class="leaderboard-badge">THE GREEN LEAGUE</span>
+                  <span class="trophy-icon">♜</span>
+                </div>
+                <h2>Good things<br />rise to the <span>top.</span></h2>
+                <p>
+                  A little friendly competition. A lot of planet-positive
+                  energy.
+                </p>
+                <div class="podium-art" aria-hidden="true">
+                  <div class="podium-glow"></div>
+                  <div class="podium-person podium-second"><span>✦</span></div>
+                  <div class="podium-person podium-first"><span>♧</span></div>
+                  <div class="podium-person podium-third"><span>✳</span></div>
+                  <div class="podium-block podium-block-second">
+                    <span>2</span>
+                  </div>
+                  <div class="podium-block podium-block-first">
+                    <span>1</span>
+                  </div>
+                  <div class="podium-block podium-block-third">
+                    <span>3</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="leaderboard-content">
+                <div class="section-heading leaderboard-heading">
+                  <div>
+                    <div class="eyebrow">COMMUNITY</div>
+                    <h2>The top rangers</h2>
+                  </div>
+                  <span class="leaderboard-live-chip"
+                    ><span></span> LIVE DATA</span
+                  >
+                </div>
+
+                <div class="leaderboard-subtitle">
+                  Ranked by verified EcoPoints
+                </div>
+
+                <div id="leaderboardList" class="leaderboard-list">
+                  <div class="empty-state small-empty">
+                    <div class="empty-icon">♜</div>
+                    <strong>The leaderboard is warming up</strong>
+                    <p>Redeemed kiosk codes will help build the rankings.</p>
+                  </div>
+                </div>
+
+                <div class="leaderboard-note">
+                  <span class="leaderboard-note-icon">↗</span>
+                  Scores update from Firebase.
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <!-- CLAIM CODE -->
+          <section class="claim-panel" id="claims">
+            <div class="claim-panel-background" aria-hidden="true">
+              <div class="claim-grid-pattern"></div>
+              <div class="claim-orbit claim-orbit-one"></div>
+              <div class="claim-orbit claim-orbit-two"></div>
+              <div class="claim-glow"></div>
+            </div>
+
+            <div class="claim-copy">
+              <div class="claim-label">
+                <span class="claim-label-icon">◇</span>
+                THE REWARD PORTAL
+              </div>
+
+              <h2>
+                Your next reward<br />is
+                <span class="gradient-text">one code away.</span>
+              </h2>
+
+              <p>
+                Got a code from your EcoBounty kiosk? Enter it below to redeem
+                your verified EcoPoints and add it to your journey.
+              </p>
+
+              <div class="claim-feature-pills">
+                <span><span>✓</span> One-time codes</span>
+                <span><span>⌁</span> Firebase verified</span>
+                <span><span>✳</span> 24-hour validity</span>
+              </div>
+
+              <div class="claim-note">
+                <span class="claim-note-symbol">ⓘ</span>
+                <span
+                  >Each kiosk code can be redeemed once and expires after 24
+                  hours.</span
+                >
+              </div>
+            </div>
+
+            <div class="claim-form-shell">
+              <div class="claim-form-header">
+                <div class="claim-form-emblem">✳</div>
+                <div>
+                  <strong>Redeem your points</strong>
+                  <span>Enter your unique kiosk code</span>
+                </div>
+                <span class="claim-form-step">01 / 01</span>
+              </div>
+
+              <form id="claimForm" class="claim-form">
+                <label for="claimCodeInput">YOUR CLAIM CODE</label>
+
+                <div class="claim-input-wrap">
+                  <span class="input-code-icon">#</span>
+                  <input
+                    id="claimCodeInput"
+                    name="claimCode"
+                    type="text"
+                    placeholder="ECO-XXXX-XXXX"
+                    minlength="4"
+                    maxlength="32"
+                    autocomplete="off"
+                    autocapitalize="characters"
+                    spellcheck="false"
+                    required
+                  />
+                  <span class="input-terminal-dot"></span>
+                </div>
+
+                <button
+                  class="primary-button submit-button"
+                  id="claimButton"
+                  type="submit"
+                >
+                  <span>Redeem EcoPoints</span>
+                  <span class="button-arrow">↗</span>
+                </button>
+
+                <p id="claimStatus" class="form-status" aria-live="polite"></p>
+                <div id="claimQueue" class="claim-queue"></div>
+
+                <div class="claim-form-foot">
+                  <span class="claim-lock">⌑</span>
+                  Your code is checked against the EcoBounty database.
+                </div>
+              </form>
+            </div>
+          </section>
+
+          <!-- CURRENT KIOSK CODES -->
+          <section class="content-panel kiosk-codes-panel" id="kioskCodes">
+            <div class="section-heading">
+              <div>
+                <div class="eyebrow">
+                  <span class="eyebrow-line"></span> LIVE KIOSK DATABASE
+                </div>
+                <h2>Current kiosk codes<span class="title-period">.</span></h2>
+                <p class="panel-subtitle">
+                  Enter your kiosk number to view available claim codes, with
+                  the newest scan shown first.
+                </p>
+              </div>
+
+              <span class="count-pill" id="kioskCodesBadge">LOCKED</span>
+            </div>
+
+            <form id="kioskAccessForm" class="kiosk-access-form">
+              <label for="kioskNumberInput">
+                KIOSK NUMBER / ACCESS PASSWORD
+              </label>
+
+              <div class="kiosk-access-controls">
+                <div class="claim-input-wrap">
+                  <span class="input-code-icon">#</span>
+                  <input
+                    id="kioskNumberInput"
+                    type="password"
+                    inputmode="numeric"
+                    maxlength="8"
+                    placeholder="Enter kiosk number"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+
+                <button
+                  id="kioskAccessButton"
+                  class="primary-button"
+                  type="submit"
+                >
+                  <span>View current codes</span>
+                  <span class="button-arrow">↗</span>
+                </button>
+              </div>
+
+              <p
+                id="kioskCodesStatus"
+                class="form-status"
+                aria-live="polite"
+              ></p>
+            </form>
+
+            <div id="kioskCodesUnlocked" hidden>
+              <div id="kioskLatestCode" class="kiosk-latest-code" hidden></div>
+
+              <div class="history-column-labels" aria-hidden="true">
+                <span>AVAILABLE CLAIM CODES · NEWEST FIRST</span>
+                <span>POINTS</span>
+              </div>
+
+              <div
+                id="kioskCodesList"
+                class="kiosk-codes-list"
+                aria-live="polite"
+              ></div>
+            </div>
+          </section>
+
+          <!-- PROFILE -->
+          <section class="content-panel profile-panel" id="profile">
+            <div class="section-heading">
+              <div>
+                <div class="eyebrow">
+                  <span class="eyebrow-line"></span> YOUR ACCOUNT
+                </div>
+                <h2>
+                  Your corner of EcoBounty<span class="title-period">.</span>
+                </h2>
+                <p class="panel-subtitle">
+                  Make this green space feel a little more like you.
+                </p>
+              </div>
+              <div class="profile-top-actions">
+                <span class="profile-status"
+                  ><span class="profile-status-dot"></span> Email account</span
+                >
+                <button id="signOutBtn" class="secondary-button" type="button">
+                  Sign out <span>↗</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="profile-layout">
+              <div class="profile-avatar-wrap">
+                <div class="profile-avatar-orbit"></div>
+                <div class="profile-avatar" id="profileAvatar">E</div>
+                <span class="profile-avatar-spark">✦</span>
+              </div>
+
+              <div class="profile-main">
+                <label for="displayNameInput">YOUR DISPLAY NAME</label>
+                <div class="profile-edit-row">
+                  <span class="profile-input-icon">◎</span>
+                  <input
+                    id="displayNameInput"
+                    type="text"
+                    maxlength="22"
+                    minlength="2"
+                    placeholder="Your green nickname"
+                    autocomplete="nickname"
+                  />
+                  <button
+                    class="secondary-button"
+                    id="saveNameBtn"
+                    type="button"
+                  >
+                    Save name <span>↗</span>
+                  </button>
+                </div>
+
+                <p class="muted-copy">
+                  Your nickname may appear on the leaderboard. A nickname is a
+                  great way to protect your privacy.
+                </p>
+
+                <div class="uid-row">
+                  <span class="uid-label">YOUR FIREBASE USER ID</span>
+                  <code id="uidText">Waiting for sign-in…</code>
+                  <button type="button" class="text-button" id="copyUidBtn">
+                    Copy ID ↗
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-bottom-strip">
+              <div class="profile-bottom-icon">✳</div>
+              <div>
+                <strong>Keep doing good things.</strong>
+                <span
+                  >Your progress is built one verified redemption at a
+                  time.</span
+                >
+              </div>
+              <a href="#claims" class="profile-bottom-link"
+                >Redeem a code <span>↗</span></a
+              >
+            </div>
+          </section>
+
+          <footer class="app-footer">
+            <div class="footer-brand">
+              <span class="footer-leaf">✳</span>
+              <span>eco<span class="brand-accent">bounty</span></span>
+            </div>
+            <span class="footer-message"
+              >Made for a greener tomorrow. <span>🌎</span></span
+            >
+            <span class="footer-version">GROW GOOD THINGS · WEB 2.0</span>
+          </footer>
+        </section>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite">
+      <span class="toast-icon">✳</span>
+      <span class="toast-message"></span>
+    </div>
+  </body>
+</html>
